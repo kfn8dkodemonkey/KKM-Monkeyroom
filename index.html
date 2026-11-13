@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<div class="intro">
+  <p class="eyebrow">KAFFEINATED KODEMONKEY / WORKSPACE</p>
+  <h1>Your tools, all in one place.</h1>
+  <p class="lead">Pick up a project or open the tools you need to get things done.</p>
+</div>
+<section id="projects" class="mb-5" aria-labelledby="projects-title">
+  <div class="section-heading"><h2 id="projects-title">Current projects</h2><span>What you’re working on</span></div>
+  <div class="row g-3">
+    {% for project in site.data.projects %}
+    <div class="col-md-6">
+      <article class="project-card h-100">
+        <p class="eyebrow">PROJECT {{ forloop.index | prepend: '0' }}</p>
+        <h3>{{ project.name | escape }}</h3>
+        <p>{{ project.description | escape }}</p>
+        <div class="project-links">
+        {% for link in project.links %}
+          <a class="btn btn-project" href="{{ link.url | escape }}">{{ link.label | escape }}<span class="visually-hidden"> — {{ project.name | escape }}</span> <span aria-hidden="true">↗</span></a>
+        {% else %}
+          <span class="pending">Project link coming soon</span>
+        {% endfor %}
+        </div>
+      </article>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+<section id="tools" aria-labelledby="tools-title">
+  <div class="section-heading"><h2 id="tools-title">Tools &amp; resources</h2><span>Everyday essentials</span></div>
+  {% assign groups = site.data.tools | group_by: 'group' %}
+  {% for group in groups %}
+  <section class="tool-group" aria-labelledby="group-{{ forloop.index }}">
+    <h3 id="group-{{ forloop.index }}" class="group-title">{{ group.name | escape }}</h3>
+    <div class="row g-3">
+      {% for tool in group.items %}
+      <div class="col-md-6 col-lg-4">
+        <a class="tool-card" href="{{ tool.url | escape }}">
+          <span class="tool-icon" aria-hidden="true">{{ tool.initials | escape }}</span>
+          <span class="tool-copy"><span class="tool-name">{{ tool.name | escape }}</span><span class="tool-description">{{ tool.description | escape }}</span></span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+</section>

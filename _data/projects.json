@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Archery Shoot Finder",
+    "description": "Archery website and event directory app.",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://archeryshootfinder.com"
+      },
+      {
+        "label": "Directory app",
+        "url": "https://app.archeryshootfinder.com"
+      }
+    ]
+  },
+  {
+    "name": "ClubHub",
+    "description": "Off-road club websites, chat and rider services.",
+    "links": []
+  }
+]

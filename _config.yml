@@ -1,0 +1,10 @@
+title: KKM-Monkeyroom
+description: Your tools, all in one place.
+url: "https://monkeyroom.caffeinatedcodemonkey.com"
+baseurl: ""
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

@@ -1,0 +1,65 @@
+[
+  {
+    "group": "Clients & Billing",
+    "name": "Vtiger",
+    "initials": "VT",
+    "description": "Clients, invoices & renewals",
+    "url": "https://kaffeinatedkodemonkey.com/KMSales/"
+  },
+  {
+    "group": "Clients & Billing",
+    "name": "QuickBooks",
+    "initials": "QB",
+    "description": "Accounting & financial records",
+    "url": "https://accounts.intuit.com/app/sign-in?app_group=QBSE&asset_alias=Intuit.smallbusiness.qbse&country_code=US#/app/home"
+  },
+  {
+    "group": "Support",
+    "name": "osTicket",
+    "initials": "OS",
+    "description": "Support tickets & knowledge base",
+    "url": "https://kaffeinatedkodemonkey.com/support/scp/login.php"
+  },
+  {
+    "group": "Accessibility",
+    "name": "WEAR-TTProcess",
+    "initials": "TT",
+    "description": "Trusted Tester evaluation workflow",
+    "url": "http://monkeyroom-aea.caffeinatedcodemonkey.com/"
+  },
+  {
+    "group": "Hosting",
+    "name": "SiteGround",
+    "initials": "SG",
+    "description": "Hosting & site management",
+    "url": "https://login.siteground.com/?lang=en&redirect=https%3A%2F%2Fmy.siteground.com%3Fgbraid%3D0AAAAAD_aFTbFy6fupbnpoxdQeJ1XdaM77"
+  },
+  {
+    "group": "AI Tools",
+    "name": "ChatGPT",
+    "initials": "AI",
+    "description": "Writing, research & development",
+    "url": "https://chatgpt.com/"
+  },
+  {
+    "group": "AI Tools",
+    "name": "Grok",
+    "initials": "GR",
+    "description": "AI assistance & research",
+    "url": "https://grok.com/"
+  },
+  {
+    "group": "Development Resources",
+    "name": "Jekyll",
+    "initials": "JK",
+    "description": "Jekyll documentation & resources",
+    "url": "https://jekyllrb.com/"
+  },
+  {
+    "group": "Development Resources",
+    "name": "Gatsby",
+    "initials": "GA",
+    "description": "Gatsby documentation & resources",
+    "url": "https://www.gatsbyjs.com/"
+  }
+]
